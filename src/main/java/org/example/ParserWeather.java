@@ -67,7 +67,7 @@ public class ParserWeather {
             System.out.println(sb1.append("                     ").append(weather).append("     ")
                     .append(temperature).append("          ").append(pressure).append("     ")
                     .append(wind).append("     ").append(humidity).append("\n"));
-            dateWeathers.add(new DateWeather(weather, temperature, pressure, weather, humidity));
+            dateWeathers.add(new DateWeather(weather, temperature, pressure, wind, humidity));
         }
         for (DateWeather d : dateWeathers) {
             System.out.println(d);
